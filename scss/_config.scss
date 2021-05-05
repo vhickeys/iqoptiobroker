@@ -1,0 +1,175 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $secondary-color;
+    opacity: 0.8;
+}
+
+// Responsivenes
+
+@mixin xxss-devices {
+    @media (min-width: 279.98px) and (max-width: 319.98px) {
+        @content;
+    }
+}
+
+@mixin xss-devices {
+    @media (min-width: 320px) and (max-width: 399.98px) {
+        @content;
+    }
+}
+
+@mixin xsss-devices {
+    @media (min-width: 400px) and (max-width: 499.98px) {
+        @content;
+    }
+}
+
+@mixin xs-devices {
+    @media (min-width: 500px) and (max-width: 575.98px) {
+        @content;
+    }
+}
+
+@mixin smm-devices {
+    @media (min-width: 576px) and (max-width: 659.98px) {
+        @content;
+    }
+}
+
+@mixin smmm-devices {
+    @media (min-width: 660px) and (max-width: 767.98px) {
+        @content;
+    }
+}
+
+@mixin sm-devices {
+    @media screen and (max-width: 767.98px) {
+        @content;
+    }
+}
+
+@mixin mdd-devices {
+    @media (min-width: 768px) and (max-width: 890.98px) {
+        @content;
+    }
+}
+
+@mixin mddd-devices {
+    @media (min-width: 891px) and (max-width: 991.98px) {
+        @content;
+    }
+}
+
+@mixin md-devices {
+    @media screen and (max-width: 991.98px) {
+        @content;
+    }
+}
+
+@mixin lgg-devices {
+    @media (min-width: 992px) and (max-width: 1099.98px) {
+        @content;
+    }
+}
+
+@mixin lggg-devices {
+    @media (min-width: 1100px) and (max-width: 1199.98px) {
+        @content;
+    }
+}
+
+@mixin lg-devices {
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        @content;
+    }
+}
+
+@mixin xl-devices {
+    @media (min-width: 1200px) and (max-width: 1299.98px) {
+        @content;
+    }
+}
+
+@mixin signup {
+    .sign-up {
+        background: url('../assets/img/10.jpg');
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        padding: 6rem 0;
+        font-family: sans-serif;
+
+
+        .form-container {
+
+            .row-header {
+                margin-left: -8rem;
+                text-align: center;
+
+                h2 {
+                    color: $white-color;
+                    text-transform: uppercase;
+                    font-size: 45px;
+                    font-weight: 900;
+                    margin-bottom: 1rem;
+
+                    span {
+                        color: $light-color;
+                    }
+                }
+            }
+        }
+
+        & .info-form {
+            color: $white-color;
+            text-transform: uppercase;
+            color: #a0a0a0;
+            font-size: 14px;
+            margin-bottom: 2rem;
+        }
+
+        & .form-group {
+            width: 70%;
+            margin-left: 2rem;
+
+            p {
+                margin-top: 1rem;
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #a0a0a0;
+            }
+
+            a {
+                color: $light-color;
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: darken($color: $light-color, $amount: 10%);
+            }
+
+            input {
+                font-size: 12px;
+                padding: 1.5rem;
+                border-radius: 0;
+                border-color: #505050;
+                color: $white-color;
+                box-shadow: none;
+            }
+
+            input:focus {
+                border-color: #9c9c9c;
+                font-size: 14px;
+            }
+
+            .form-control {
+                background-color: transparent;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

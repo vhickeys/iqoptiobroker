@@ -1,0 +1,27 @@
+header .navbar-nav {
+    margin: 5rem;
+}
+
+header .navbar-brand {
+    margin-left: 5rem;
+}
+
+header .navbar {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header .navbar-nav .nav-link {
+    font-weight: bolder;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+header .navbar .active .nav-link {
+    color: $primary-color !important;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: $primary-color !important;
+}

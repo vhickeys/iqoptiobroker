@@ -1,0 +1,80 @@
+.site-footer {
+    background-image: url(../assets/img/9.jpeg);
+    display: block;
+    padding: 4rem 0 0 0;
+    position: relative;
+
+    .img {
+        margin-left: -3rem;
+        margin-top: -4rem;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        color: #b8b8b8;
+        margin-top: -2rem;
+    }
+
+    .links {
+        #underline {
+            font-size: 18px;
+            letter-spacing: 2px;
+            margin-bottom: 2.5rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #b8b8b8;
+            font-size: 14px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        a:hover {
+            color: $primary-color;
+            margin-left: 2px;
+        }
+
+        li {
+            list-style-type: none;
+
+        }
+    }
+
+    .bordered {
+        border: 1px solid #474747;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 1rem;
+
+        & .icon {
+            float: left;
+
+            i {
+                font-size: 25px;
+                margin: 1.5rem 2rem 0 0;
+                color: $light-color;
+            }
+        }
+
+        & .icon-contents {
+
+            h5 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    padding-bottom: 2rem;
+
+    & .copyrights-text {
+        color: $white-color;
+    }
+}

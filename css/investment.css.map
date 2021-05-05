@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "../scss/investment.scss"
+    ],
+    "names": [],
+    "file": "investment.css"
+}

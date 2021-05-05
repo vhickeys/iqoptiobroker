@@ -1,0 +1,845 @@
+@include xss-devices {
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 1rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 10px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 10px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 10px;
+                        display: none;
+                    }
+
+                    h1 {
+                        font-size: 0.9rem;
+                    }
+
+                }
+            }
+        }
+
+        .sticky {
+            height: 16%;
+        }
+    }
+
+}
+
+@include xsss-devices {
+    .sticky {
+        height: 18rem;
+    }
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 0.8rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 10px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 10px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 12px;
+
+                    }
+
+                    h1 {
+                        font-size: 1.1rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+// Extra small devices e.g portraits phones, less than 576px
+
+@include xs-devices {
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 1rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 12px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 12px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-size: 1.4rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .section-9 {
+        padding: 3rem 0;
+
+        .card-body {
+            padding: 0 1rem;
+        }
+    }
+
+    .section-7 {
+        .wt-box h2 {
+            font-size: 30px;
+        }
+    }
+
+    .section-10 {
+        .table {
+            margin-top: -2rem;
+        }
+    }
+
+    // investment page 
+
+    .invest {
+        .btc-input {
+            .btn-primary4 {
+                font-size: 12px;
+                width: 30%;
+            }
+        }
+    }
+
+    .account-info {
+        .divref {
+            .btn-secondary2 {
+                padding: 20px 60px;
+            }
+        }
+    }
+
+    .sticky {
+        height: 18%;
+    }
+}
+
+//Small devices e.g landscapes phones 576px and up
+
+@include smm-devices {
+
+    .sticky {
+        height: 18%;
+    }
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 2rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-size: 1.4rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include smmm-devices {
+    .sticky {
+        height: 20%;
+    }
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 4.5rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    h1 {
+                        font-size: 1.7rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include sm-devices {
+
+    .sticky {
+        height: 18%;
+    }
+
+    .section-2 {
+        padding: 3rem 0;
+
+        .text-muted {
+            padding: 1rem;
+        }
+
+        .text-bold {
+            padding: 0 1rem;
+            margin-top: -1rem;
+        }
+
+        #underline {
+            text-align: center;
+            padding-bottom: 1rem;
+
+            &::after {
+                left: 44%;
+            }
+        }
+
+        p {
+            padding: 0 1rem;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .section-2-btn {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+    }
+
+    .section-9 {
+        padding: 3rem 1rem;
+    }
+}
+
+//Medium Devices e.g tablets , 768px and up
+
+@include mdd-devices {
+
+    .sticky {
+        height: 18%;
+    }
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 6rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+
+                    h1 {
+                        font-size: 1.8rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include mddd-devices {
+    .sticky {
+        height: 20%;
+    }
+
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 8rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 2rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include md-devices {
+
+    .sticky {
+        height: 17%;
+    }
+
+    main {
+        .header-section {
+            .navbar {
+                margin: -2.5rem 0 -2rem 0;
+                padding: 0.5rem 1rem 0 2.5rem;
+
+                .navbar-nav {
+                    margin-bottom: 4rem;
+                }
+            }
+
+            .navbar-brand {
+                margin-left: -4rem;
+            }
+        }
+
+        .investment-header-section {
+            .navbar {
+                margin: -2rem 0 0 0;
+                padding: 1rem 1rem 0 2.5rem;
+
+                .navbar-nav {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .navbar-brand {
+                margin-left: -4rem;
+            }
+        }
+
+    }
+
+
+    header {
+
+        .navbar {
+            margin-top: -2rem;
+
+            .navbar-brand {
+                margin-left: -2.5rem;
+                margin-top: -0.5rem;
+            }
+
+            .navbar-collapse {
+                margin-top: -2rem;
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+
+    .carousel-caption {
+
+        .btn-primary1 {
+            padding: 7px 15px;
+            font-size: 16px;
+
+        }
+
+        .btn-secondary1 {
+            padding: 7px 15px;
+            font-size: 16px;
+            margin-right: 2rem;
+        }
+
+        img {
+            display: none;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 2.0rem;
+            letter-spacing: 1px;
+        }
+    }
+
+    .section-1 {
+        padding-bottom: 2rem;
+
+        h4 {
+            font-size: 18px;
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        .btn-primary2 {
+            margin-left: 1rem;
+            font-size: 12px;
+        }
+    }
+
+    .section-2 {
+        background: #e5e5e7;
+        padding: 3rem 0;
+
+        .text-muted {
+            padding: 1rem;
+        }
+
+        .text-bold {
+            padding: 0 1rem;
+            margin-top: -1rem;
+        }
+
+        #underline {
+            text-align: center;
+            padding-bottom: 1rem;
+
+            &::after {
+                left: 44%;
+            }
+        }
+
+        p {
+            padding: 0 1rem;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .section-2-btn {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+    }
+
+    .section-3 {
+        padding: 3rem 0 1rem 0rem;
+
+        .icon-box {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .section-4 {
+        padding: 3rem 0;
+
+        p {
+            font-size: 14px;
+        }
+
+        .section-4-btn {
+            font-size: 12px;
+        }
+    }
+
+    .section-5 {
+
+        .spread {
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .font-60 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .font-14,
+        .font-24 {
+            text-align: center;
+        }
+
+        .status-marks {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+        }
+    }
+
+    .section-6 {
+        padding: 3rem 0;
+
+        .wt-icon-box-wraper {
+            margin-top: 0;
+
+            .icon-lg {
+                display: flex;
+
+            }
+
+            .icon-cell {
+                display: flex;
+                justify-content: center;
+            }
+
+            .step-number {
+                margin-top: -6rem;
+            }
+        }
+
+        .col-md-4 {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .section-7 {
+        .row {
+            .title-first {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .section-9 {
+        padding: 3rem 1rem;
+
+        h1 {
+            font-size: 26px;
+        }
+
+        .card {
+            margin-bottom: 4rem;
+        }
+
+        .carousel-inner .card {
+            margin-top: 4rem;
+        }
+    }
+
+    .section-10 {
+        padding: 2rem 0;
+
+        h1 {
+            font-size: 26px;
+        }
+
+        .table {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .site-footer {
+        .bordered {
+            margin-bottom: 0;
+        }
+
+        .footer-bottom {
+            padding-top: 2rem;
+            font-size: 12px;
+        }
+    }
+
+
+    .section-10 {
+        .table {
+            margin-left: 0;
+        }
+    }
+
+    //investment page 
+
+    .account-info {
+        padding: 2rem 0.5rem;
+
+        h4 {
+            font-size: 20px;
+        }
+
+        .bordered {
+            border-bottom: 2px solid $primary-color;
+        }
+
+        .withdraw {
+            .input-group {
+                width: 80%;
+            }
+        }
+    }
+
+    // signup 
+
+    .sign-up {
+        .row {
+            .form-container {
+                display: flex;
+                justify-content: center;
+
+                .row-header {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 0;
+
+                    h2 {
+                        font-size: 30px;
+                    }
+                }
+
+                .form-group {
+                    padding: 0 2rem;
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+// large devices e. Desktops, 992px and up
+
+@include lgg-devices {
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 10rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+
+                    h1 {
+                        font-size: 1.8rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@include lggg-devices {
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 12rem;
+
+                    .btn-primary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+
+                    }
+
+                    .btn-secondary1 {
+                        padding: 7px 15px;
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 2.3rem;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@include lg-devices {
+    .section-1 {
+        padding-bottom: 2rem;
+
+        h4 {
+            font-size: 18px;
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        .btn-primary2 {
+            margin-left: 1rem;
+            font-size: 12px;
+        }
+    }
+
+    .section-2 {
+        p {
+            color: $secondary-color;
+        }
+    }
+
+    .section-3 {
+        padding: 3rem 0 1rem 0;
+
+        .icon-box {
+            padding: 30px 50px 10px 50px;
+
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .section-9 {
+        padding: 6rem 2rem;
+    }
+
+    .section-10 {
+        .table {
+            margin-left: 14rem;
+        }
+    }
+}
+
+@include xl-devices {
+    header {
+        .carousel-inner {
+            height: 100%;
+
+            .carousel-item {
+                .carousel-caption {
+                    margin-bottom: 15rem;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,432 @@
+@import 'resets';
+@import 'variables';
+@import 'navbar';
+@import 'carousel';
+@import 'buttons';
+@import 'utilities';
+@import 'config';
+@import 'footer';
+
+.section-1 {
+    background: $primary-color;
+    padding: 2rem 0 1rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    & h4,
+    p {
+        color: rgb(216, 215, 215);
+        padding-left: 2.3rem;
+    }
+}
+
+.section-2 {
+    padding: 6rem 0 6rem 0;
+    font-family: sans-serif;
+    background: #e5e5e7;
+    background-image: url('../assets/img/18.jpg');
+    background-position: 400px 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & .text-muted {
+        word-spacing: 3px;
+        letter-spacing: 6px;
+        padding-right: 4rem;
+    }
+
+    & .text-bold {
+        font-weight: 600;
+        color: #727272;
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    & #underline {
+        color: lighten($secondary-color, 10%);
+        position: relative;
+        padding-bottom: 1.5rem;
+    }
+
+    & p {
+        color: #727272;
+        padding-right: 4rem;
+    }
+}
+
+.section-3 {
+    padding: 6rem 0 6rem 0;
+    background: #f6f6f6;
+    font-family: sans-serif;
+
+    & #underline1 {
+        color: lighten($secondary-color, 10%);
+        position: relative;
+        padding-bottom: 1.5rem;
+    }
+
+    & .icon-box {
+        text-align: center;
+        padding: 30px 70px 10px 70px;
+        margin-bottom: 2rem;
+        width: 100%;
+        background: $white-color;
+
+        img {
+            width: 64px;
+            height: 64px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            padding-bottom: 1.5rem;
+            color: lighten($secondary-color, 10%);
+        }
+
+        p {
+            color: #5c5b5b;
+            font-size: 14px;
+        }
+    }
+}
+
+.section-4 {
+    padding: 6rem 0 6rem 0;
+    background: #f6f6f6;
+    font-family: sans-serif;
+
+    & #underline {
+        color: lighten($secondary-color, 10%);
+        position: relative;
+        padding-bottom: 1.5rem;
+    }
+
+    & .text-bold {
+        font-weight: 600;
+        color: #727272;
+        padding-bottom: 1rem;
+    }
+
+    & p {
+        color: #727272;
+    }
+}
+
+.section-5 {
+    padding: 3rem 0 2rem 0;
+    font-family: sans-serif;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    & a {
+        color: $primary-color;
+        transition: all 0.5s ease-in-out;
+    }
+
+    & .font-14 {
+        font-size: 15px;
+        color: #eee;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    & a:hover {
+        text-decoration: none;
+        color: $light-color;
+    }
+
+    & .spread {
+        font-size: 26px;
+    }
+
+    & .font-60 {
+        font-size: 60px;
+        font-weight: bold;
+        color: $light-color;
+    }
+
+    & .font-24 {
+        font-size: 24;
+    }
+
+    & .status-marks {
+        margin: 2rem 0;
+
+        .counter {
+            font-size: 40px;
+            font-weight: bold;
+            color: $light-color;
+            padding-right: 1rem;
+        }
+
+        .font-26 {
+            color: $white-color;
+            font-size: 25px;
+        }
+
+        h6 {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.section-6 {
+    padding: 6rem 0;
+    font-family: sans-serif;
+    background: #f6f6f6;
+
+    & #underline1 {
+        padding-bottom: 1.5rem;
+        color: lighten($color: $secondary-color, $amount: 10%);
+        position: relative;
+        margin-bottom: 4rem;
+    }
+
+    & .wt-icon-box-wraper {
+        height: 100%;
+        width: 100%;
+        background: $white-color;
+        padding: 1.5rem 1.5rem;
+        //display: flex;
+
+        h4 {
+            font-size: 16px;
+        }
+
+        .icon-lg {
+            margin-top: 1rem;
+        }
+
+        .icon-cell {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wt-title {
+            text-align: center;
+            font-weight: bold;
+            color: lighten($color: $secondary-color, $amount: 10);
+            padding-top: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .step-number {
+            float: right;
+            margin-top: -7rem;
+            font-size: 70px;
+            font-weight: 900;
+            color: #dadada;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+
+    & .wt-icon-box-wraper-dark {
+        @extend .wt-icon-box-wraper;
+        background-color: $secondary-color;
+
+        .wt-title {
+            color: $white-color
+        }
+    }
+
+}
+
+.section-7 {
+    font-family: sans-serif;
+    background: url('../assets/img/16.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+
+    & .row {
+        padding: 5rem 0;
+
+        .title-first {
+            font-size: 45px;
+        }
+
+        .bitcoin {
+            font-size: 14px;
+            line-height: 1.6rem;
+            padding-bottom: 1rem;
+        }
+
+        .list-check-circle {
+            padding-left: 1.5rem;
+            font-size: 14px;
+        }
+    }
+
+    & .bit-converter {
+        padding: 3rem 2rem 1rem 2rem;
+
+        .wt-box h2 {
+            color: lighten($secondary-color, 10%);
+            padding-bottom: 1rem;
+        }
+
+    }
+}
+
+.section-8 {
+    font-family: sans-serif;
+
+    .bg-dark1 {
+        background-color: $secondary-color;
+    }
+
+    .bg-light1 {
+        background-color: $primary-color;
+    }
+
+    & .section-content {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+
+        img {
+            margin-left: 5rem;
+            margin-top: -3.5rem;
+            opacity: 0.1;
+        }
+
+        .any-query h3 {
+            margin-top: -1rem;
+            padding-bottom: 6px;
+            font-size: 24px;
+        }
+
+        & .text-primary1 {
+            color: $light-color;
+            padding-bottom: 2rem;
+            font-size: 18px;
+        }
+
+        & .any-query-contact h3 {
+            margin-top: 6px;
+            padding-bottom: 6px;
+            font-size: 24px;
+        }
+
+        & .text-secondary1 {
+            color: lighten($secondary-color, 10%);
+            padding-bottom: 2rem;
+            font-size: 18px;
+        }
+    }
+}
+
+.section-9 {
+    font-family: sans-serif;
+    padding: 6rem;
+    background-color: #f6f6f6;
+    /* background: url('../assets/img/10.jpg');
+    background-position: center center;
+    background-size: cover; */
+
+    & h1 {
+        font-size: 30px;
+        color: lighten($secondary-color, 10%);
+        position: relative;
+        padding-bottom: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    & .card {
+        width: 100%;
+        height: 100%;
+
+        .card-body {
+            padding: 0 2rem;
+        }
+
+        .card-title {
+            color: $primary-color;
+        }
+
+        .card-text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.6rem;
+            font-family: monospace;
+            color: #585858;
+        }
+
+        .card-subtitle {
+            color: #585858;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+
+    & .carousel-inner .card {
+        background-color: lighten($secondary-color, 10%);
+        width: 100%;
+
+        .card-title {
+            color: $light-color;
+        }
+
+        .card-text {
+            color: #d4d4d4;
+        }
+
+        .card-subtitle {
+            color: #d4d4d4;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+.section-10 {
+    font-family: sans-serif;
+    padding: 4rem;
+    background: #fcfcfc;
+
+    .table {
+        margin-bottom: 4rem;
+        margin-left: 17rem;
+        font-size: 14px;
+    }
+
+    #underline1 {
+        color: lighten($secondary-color, 10%);
+        position: relative;
+        padding-bottom: 1.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 1.5s ease;
+}
+
+
+// Signup 
+
+@import 'signup';
+
+// Login 
+
+@import 'login';
+
+// Investment 
+
+@import 'investment';
+
+@import 'responsive';

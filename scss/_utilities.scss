@@ -1,0 +1,20 @@
+#underline::after {
+    content: '';
+    height: 3px;
+    width: 10%;
+    background: $primary-color;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#underline1::after {
+    @extend #underline;
+    left: 44%;
+}
+
+#underline2::after {
+    @extend #underline;
+    left: 48%;
+    width: 3%;
+}
