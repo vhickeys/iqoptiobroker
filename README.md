@@ -1,4 +1,2 @@
 # iqoptiobroker
-Iq option broker project
-
-crypto currency website
+visit => www.iqoptiobroker.com to check this site out
